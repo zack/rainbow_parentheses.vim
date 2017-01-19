@@ -1,5 +1,10 @@
 # Better Rainbow Parentheses
 
+### What?
+This is a fork with the singular change of preventing highlighting curly brace
+groups where the opening brace is immediately followed by a hyphen. This allows
+elm-vim to properly highlight block comments.
+
 ### Options:
 
 ```vim
